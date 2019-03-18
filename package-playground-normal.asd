@@ -1,6 +1,4 @@
-(in-package :cl-user)
-
-(asdf:defsystem :package-playground
+(defsystem :package-playground
   :description "Proof-of-concept of fusion of one-package-per-system and one-package-per-file."
   :license "WTFPL"
   :author "YOKOTA Yuki <y2q.actionman@gmail.com>"
